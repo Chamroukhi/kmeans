@@ -4,9 +4,9 @@ principe de kmeans :
 
 Début:
  
-1) initialisation de nombre de classe(K) et les centres de groupe.
+1. initialisation de nombre de classe(K) et les centres de groupe.
 
-2)  pour chaque points(Xi) dans la base d'apprentissage et:
+2.  pour chaque points(Xi) dans la base d'apprentissage et:
    | 
    |   pour tous les classe(K) faire:
    |  |
