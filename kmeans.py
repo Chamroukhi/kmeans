@@ -12,7 +12,7 @@ x=[[12,34],[56,78],[18,15],[19,30],[34,54],[30,40],[26,34],[8,17],[38,49],[9,29]
 nombre_classe=2
 
 #nombre des variables explicatives x1,x2,...,xn
-nombre_feauture=2
+nombre_feature=2
 
 #nombre d'observation (les points)
 observation=8
@@ -31,7 +31,7 @@ for g in range(nombre_classe):
 def distanceE(centre,point):
     """ distance euclidienne """
     s=0
-    for i in range(nombre_feauture):
+    for i in range(nombre_feature):
         s=s+(pow((point[i]-centre[i]),2))
     d=np.sqrt(s)
     return d
@@ -51,7 +51,7 @@ for i in range(observation):
             groupe[k].append(x[i])
             
             #recalculer les centroide
-            for j in range(nombre_feauture):
+            for j in range(nombre_feature):
                w=0
                for l in range(len(groupe[k])):
                   
