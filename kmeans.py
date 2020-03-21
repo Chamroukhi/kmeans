@@ -86,10 +86,8 @@ for i in range(observation):
   X2.append(x[i][1])
 
 
-#présenter les nuages de point x,y
 plt.scatter(X1,X2)
 
-#tracer la droite y= a*x + b 
 plt.show()
  """                      
       
